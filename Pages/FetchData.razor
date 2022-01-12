@@ -1,0 +1,45 @@
+﻿@page "/fetchdata"
+
+@using Syncfusion.Blazor.Layouts
+
+<SfDashboardLayout CellSpacing="@(new double[]{20 ,20 })" Columns="8" AllowResizing="true">
+        <DashboardLayoutPanels>
+            <DashboardLayoutPanel Id="Panel1" Column="2">
+                <HeaderTemplate>
+                    <div>MIR</div>
+                </HeaderTemplate>
+                <ContentTemplate>
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="Panel2" Column=3>
+                <HeaderTemplate><div>Days Since Last Recordable</div></HeaderTemplate>
+                <ContentTemplate>
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="Panel3" Column=4>
+                <HeaderTemplate><div>Kilometers Driven</div></HeaderTemplate>
+                <ContentTemplate>
+
+                    <!-- Kilometers Driven -->
+                    <div class="d-flex justify-content-center align-self-center">
+                        <a id="KMdriventarget">
+                            
+                        </a>
+                    </div>
+
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="Panel4" Column="5">
+                <HeaderTemplate><div>Exposure Hours</div></HeaderTemplate>
+                <ContentTemplate>
+
+                    <!-- Exposure Hours -->
+                    <div class="d-flex justify-content-center align-self-center">
+                        <a id="ExposureHrstarget">
+                            
+                        </a>
+                    </div>
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+        </DashboardLayoutPanels>
+</SfDashboardLayout>

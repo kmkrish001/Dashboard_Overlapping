@@ -1,0 +1,140 @@
+﻿@page "/counter"
+
+@using Syncfusion.Blazor.Layouts
+@using Syncfusion.Blazor.Lists
+
+<SfDashboardLayout CellSpacing="@(new double[]{20 ,20 })" Columns="8" AllowResizing="true">
+        <DashboardLayoutPanels>
+            <DashboardLayoutPanel Id="Panel1" Column="2">
+                <HeaderTemplate>
+                    <div>MIR</div>
+                </HeaderTemplate>
+                <ContentTemplate>
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="Panel2" Column=3>
+                <HeaderTemplate><div>Days Since Last Recordable</div></HeaderTemplate>
+                <ContentTemplate>
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="Panel3" Column=4>
+                <HeaderTemplate><div>Kilometers Driven</div></HeaderTemplate>
+                <ContentTemplate>
+
+                    <!-- Kilometers Driven -->
+                    <div class="d-flex justify-content-center align-self-center">
+                        <a id="KMdriventarget">
+                            
+                        </a>
+                    </div>
+
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="Panel4" Column="5">
+                <HeaderTemplate><div>Exposure Hours</div></HeaderTemplate>
+                <ContentTemplate>
+
+                    <!-- Exposure Hours -->
+                    <div class="d-flex justify-content-center align-self-center">
+                        <a id="ExposureHrstarget">
+                            
+                        </a>
+                    </div>
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+        </DashboardLayoutPanels>
+</SfDashboardLayout>
+
+<SfDashboardLayout CellSpacing="@(new double[]{20 ,20 })" Columns="10" AllowResizing="true">
+        <DashboardLayoutPanels>
+
+            <DashboardLayoutPanel Id="1_Panel" Column="2" Row="0" SizeX="6">
+                <HeaderTemplate><div>Allnorth</div></HeaderTemplate>
+                <ContentTemplate>
+
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+
+            <DashboardLayoutPanel Id="2_Panel" Column="2" Row="1">
+                <HeaderTemplate><div>Atlanta</div></HeaderTemplate>
+                <ContentTemplate>
+
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="3_Panel" Column="3" Row="1">
+                <HeaderTemplate><div>Calgary</div></HeaderTemplate>
+                <ContentTemplate>
+
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="4_Panel" Column="4" Row="1">
+                <HeaderTemplate><div>Grande Prairie</div></HeaderTemplate>
+                <ContentTemplate>
+
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="5_Panel" Column="5" Row="1">
+                <HeaderTemplate><div>Kamloops</div></HeaderTemplate>
+                <ContentTemplate>
+
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="6_Panel" Column="6" Row="1">
+                <HeaderTemplate><div>Kelowna</div></HeaderTemplate>
+                <ContentTemplate>
+
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="7_Panel" Column="7" Row="1">
+                <HeaderTemplate><div>Nanaimo</div></HeaderTemplate>
+                <ContentTemplate>
+
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+
+            <DashboardLayoutPanel Id="8_Panel" Column="2" Row="2">
+                <HeaderTemplate><div>Prince George</div></HeaderTemplate>
+                <ContentTemplate>
+
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="9_Panel" Column="3" Row="2">
+                <HeaderTemplate><div>Saskatoon</div></HeaderTemplate>
+                <ContentTemplate>
+
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="10_Panel" Column="4" Row="2">
+                <HeaderTemplate><div>St. John's'</div></HeaderTemplate>
+                <ContentTemplate>
+
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="11_Panel" Column="5" Row="2">
+                <HeaderTemplate><div>Terrace</div></HeaderTemplate>
+                <ContentTemplate>
+
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="12_Panel" Column="6" Row="2">
+                <HeaderTemplate><div>Vancouver</div></HeaderTemplate>
+                <ContentTemplate>
+
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+            <DashboardLayoutPanel Id="13_Panel" Column="7" Row="2">
+                <HeaderTemplate><div>Spare</div></HeaderTemplate>
+                <ContentTemplate>
+
+                </ContentTemplate>
+            </DashboardLayoutPanel>
+
+        </DashboardLayoutPanels>
+</SfDashboardLayout>
+@code{
+
+
+}
+<style>
+   
+</style>

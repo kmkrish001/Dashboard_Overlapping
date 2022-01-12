@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31710.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp1", "BlazorApp1.csproj", "{6213116E-6FA5-47AB-B396-D5A9E4D8FAC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syncfusion.Blazor", "..\..\..\EJ2\FileManager\ej2-blazor-source\Syncfusion.Blazor\Syncfusion.Blazor.csproj", "{C9521717-CF92-44B0-9BB5-1E7E562615C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6213116E-6FA5-47AB-B396-D5A9E4D8FAC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6213116E-6FA5-47AB-B396-D5A9E4D8FAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6213116E-6FA5-47AB-B396-D5A9E4D8FAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6213116E-6FA5-47AB-B396-D5A9E4D8FAC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9521717-CF92-44B0-9BB5-1E7E562615C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9521717-CF92-44B0-9BB5-1E7E562615C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9521717-CF92-44B0-9BB5-1E7E562615C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9521717-CF92-44B0-9BB5-1E7E562615C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E04583C-71E6-49E3-8658-C9FF9F3E3E6E}
+	EndGlobalSection
+EndGlobal
